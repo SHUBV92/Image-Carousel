@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./Slider.scss";
-import ImgComp from "./ImgComp"
-import i1 from "./pics/1.jpg"
+import ImgComp from "../ImgComp/ImgComp"
+import i1 from "../../pics/Luffy.jpg"
 
 const Slider = () => {
-  let sliderArr = [<ImgComp src={i1}, 2, 3, 4, 5];
+  let sliderArr = [<ImgComp src={i1} />, 2, 3, 4, 5];
   const [x, setX] = useState(0);
 
   const goLeft = () => {
