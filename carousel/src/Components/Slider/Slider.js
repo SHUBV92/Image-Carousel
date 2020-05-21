@@ -1,10 +1,18 @@
 import React, { useState } from "react";
 import "./Slider.scss";
 import ImgComp from "../ImgComp/ImgComp"
-import i1 from "../../pics/Luffy.jpg"
+import Luffy from "../../pics/Luffy.jpg"
+import Courage from "../../pics/Courage.jpg"
+import FireKaizoku from "../../pics/FireKaizoku.png"
+import Kaizoku from "../../pics/Kaizoku.png"
+import TheSquad from "../../pics/TheSquad.jpg"
+import Zoro from "../../pics/Zoro.jpg"
+
+
+
 
 const Slider = () => {
-  let sliderArr = [<ImgComp src={i1} />, 2, 3, 4, 5];
+  let sliderArr = [<ImgComp src={Luffy} />, <ImgComp src={Courage} />, <ImgComp src={FireKaizoku} />, <ImgComp src={Kaizoku} />, <ImgComp src={TheSquad} />, <ImgComp src={Zoro} />];
   const [x, setX] = useState(0);
 
   const goLeft = () => {

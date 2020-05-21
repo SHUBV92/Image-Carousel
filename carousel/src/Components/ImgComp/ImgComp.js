@@ -1,8 +1,21 @@
-import React from 'react'
-import "./ImgComp.scss"
+import React from "react";
+// import "./ImgComp.scss";
 
-const ImgComp = ({src}) =>{
-    return<img src={src} alt="slide-img"></img>
-}
+const ImgComp = ({ src }) => {
+  let imgStyles={
+      width: 100 + "%",
+      height: "auto"
+  }
+    return (
+    
+    <img
+     src={src}
+     alt="slide-img" 
+     style={imgStyles}
+     >
+     
+     </img>
+  )
+};
 
 export default ImgComp;
