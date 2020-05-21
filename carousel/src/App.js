@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Slider from "./Components/Slider.js"
+import Slider from "./Components/Slider/Slider.js"
 
 function App() {
   return (
