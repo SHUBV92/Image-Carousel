@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Slider.css";
+import "./Slider.scss";
 
 const Slider = () => {
   let sliderArr = [1, 2, 3, 4];
