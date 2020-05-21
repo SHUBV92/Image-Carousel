@@ -1,10 +1,10 @@
 import React from "react";
-// import "./ImgComp.scss";
+import "./ImgComp.scss";
 
 const ImgComp = ({ src }) => {
   let imgStyles={
       width: 100 + "%",
-      height: "auto"
+      height: 100 + "%"
   }
     return (
     

@@ -7,6 +7,11 @@ import FireKaizoku from "../../pics/FireKaizoku.png"
 import Kaizoku from "../../pics/Kaizoku.png"
 import TheSquad from "../../pics/TheSquad.jpg"
 import Zoro from "../../pics/Zoro.jpg"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {
+  faChevronLeft,
+  faChevronRight
+} from "@fortawesome/free-solid-svg-icons"
 
 
 
@@ -48,10 +53,15 @@ const Slider = () => {
         );
       })}
       <button id="goLeft" onClick={goLeft}>
-        Left
+
+    <FontAwesomeIcon icon={faChevronLeft} />
+
       </button>
       <button id="goRight" onClick={goRight}>
-        Right
+
+
+      <FontAwesomeIcon icon={faChevronRight} />
+
       </button>
     </div>
   );
